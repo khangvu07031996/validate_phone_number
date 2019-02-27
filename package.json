@@ -1,0 +1,27 @@
+{
+  "name": "validate_phone_number",
+  "version": "2.0.1",
+  "description": "validate phone number vietnam",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khangvu07031996/validate_phone_number.git"
+  },
+  "keywords": [
+    "validate",
+    "phone",
+    "number"
+  ],
+  "author": "khangvu07031996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khangvu07031996/validate_phone_number/issues"
+  },
+  "homepage": "https://github.com/khangvu07031996/validate_phone_number#readme",
+  "dependencies": {
+    "google-libphonenumber": "^3.2.2"
+  }
+}
