@@ -1,6 +1,6 @@
 {
   "name": "validate_phone_number",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "validate phone number vietnam",
   "main": "index.js",
   "scripts": {
