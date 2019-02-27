@@ -36,7 +36,6 @@ const phoneUtil = require('google-libphonenumber').PhoneNumberUtil.getInstance()
         regionCode = regionCode ? regionCode.toString().toUpperCase(): "VN";
         phoneNumber = phoneNumber ? phoneNumber.toString().trim() : "";
         let t3rdCharacters = phoneNumber.slice(0,3);
-        console.log(t3rdCharacters);
         const number = phoneUtil.parseAndKeepRawInput(phoneNumber, regionCode);
         let isValidNumber = phoneUtil.isValidNumberForRegion(number,regionCode)
         if(t3rdCharacters=='086'){
